@@ -1,4 +1,8 @@
 package com.devdroid.horoscopapp
 
-class HoroscopApp {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class HoroscopApp:Application{
 }

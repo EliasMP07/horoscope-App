@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.devdroid.horoscopapp.R
 import com.devdroid.horoscopapp.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
 
